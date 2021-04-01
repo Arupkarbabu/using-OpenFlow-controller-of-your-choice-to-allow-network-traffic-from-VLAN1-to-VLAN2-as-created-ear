@@ -1,0 +1,3 @@
+ryu-manager inter_vlan.py
+
+sudo mn --topo=single,4 --switch=ovs,protocols=Openflow13 ---controller=remote,ip=127.0.0.1:6653
